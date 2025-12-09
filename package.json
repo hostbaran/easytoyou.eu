@@ -1,0 +1,13 @@
+{
+  "name": "ioncube-decoder",
+  "version": "1.0.0",
+  "description": "Decode ionCube encoded PHP files using easytoyou.eu",
+  "main": "decode.js",
+  "scripts": {
+    "start": "node decode.js",
+    "install-browsers": "npx playwright install firefox"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
